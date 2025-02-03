@@ -25,10 +25,11 @@ print(finde)
 #To reverse a string using the slice function
 x = "Blesson" [::-1]
 print(x)
-"""
+
 
 list = ["Aswin MS", "Tom Sibus", "Alan Joy", "Nikki Tom","Nikki Tom", "Small Elephant"]
 #r=set(list)
+"""
 """
 r=enumerate(list)
 
@@ -36,10 +37,20 @@ for i, word in r:
     print(i,word)
     
 x=sorted(list,reverse=True)
-"""
+
 x=sorted(list,key=len)
 print(x)
 
-
+"""
 #Program to read a list of names and sort in alphabetic order
 #Program to remove all duplicates form a list
+n=2
+
+switcher = {
+    1:10,
+    2:20
+
+}
+
+val=switcher.get(n)
+print(val)
