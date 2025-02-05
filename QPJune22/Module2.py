@@ -10,6 +10,36 @@ text=f1.read()
 print(text)
 """
 
+""" #Qn13a) Write a python program to count how many times each character appears in a given string and store the count in a dictionary with key as the character.
+strin="All the best CSE-B"
+dic={}
+
+for i in strin:
+    if i not in dic.keys():
+        dic[i]=1
+    else:
+        dic[i]=dic[i]+1
+
+print(dic)
+"""
+
+""" #Qn13b) Create a funtion min_max() that takes n numbers as list argument and return the smallest and largest numbers.
+def min_max(listt):
+    minn=11110
+    maxx=0
+    for num in listt:
+        if num>maxx:
+            maxx=num
+        if num<minn:
+           minn=num
+    
+    print(minn)
+    print(maxx)
+
+listt=[10,20,30,40]
+min_max(listt)
+"""
+
 """ #Qn14a) Python program to read n numbers into a list and separate the positive and negative numbers into 2 different lists.
 n=int(input("Enter the limit of the numbers:"))
 lis=[]
