@@ -26,3 +26,10 @@ n2=temp
 print("First Number is:",n1)
 print("First Number is:",n2)
 """
+
+text = "PythonSlicing"
+
+print(text[0:6])    # 'Python'  (Characters from index 0 to 5)
+print(text[:6])     # 'Python'  (Start defaults to 0)
+print(text[6:])     # 'Slicing' (Stop defaults to end)
+print(text[::-2])      # 'PythonSlicing' (Copies the entire string)

@@ -8,7 +8,7 @@ print("hi")
 String = "Aromal "
 print(String[0])
 
-String2 = "is hot"
+String2 = "is the class rep"
 
 String+= String2
 print(String[0:3])
