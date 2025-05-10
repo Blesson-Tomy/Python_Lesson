@@ -1,23 +1,31 @@
 #These are the answers to the programming questions in Module 1 of the June 2022 Programming in Python Exam paper.
 """#Qn1) What is the output of the following statements?
+
+Ans:
 print(9/2)
-print(9//2)
+print(9//2) 
+
 """
+
+
 
 """#Qn2) Python program to print the number of odd and even numbers in a given set of n numbers.
-set = {1,2,3,4,5,6,7,8,9,11}
-even=0
-odd=0
-print("Length of Set:",len(set))
-for i in set:
-    if (i%2==0):
-        even=even+1
-    else:
-        odd=odd+1
 
-print("The number of odd numbers in the set is: ",odd)
-print("The number of even numbers in the set is: ",even)
+Ans:
+n = int(input("Enter the value of n:"))
+ecount=0
+ocount=0
+for i in range(n+1):
+    if(i%2==0):
+        ecount=ecount+1
+    else:
+        ocount=ocount+1
+
+print("The number of Even Numbers is: ",ecount,".")
+print("The number of Odd Numbers is: ",ocount,".")
+
 """
+
 
 """#Qn11a) Generate a pattern as shown below:
 1
@@ -25,37 +33,39 @@ print("The number of even numbers in the set is: ",even)
 1 2 3
 1 2 3 4
 
-limit = int(input("Enter the number of rows: "))
-for i in range(1,limit+1,1):
-    for j in range(1,i+1,1):
-        
-        print(j," ",end="")
-    j=0
-    print("\n")
+Ans:
+num=5
+for i in range(1,5+1):
+    for j in range(1,i+1):
+        print(j, end=" ")
+    print()
 """
+
+
+
 
 """#Qn12a) Python program to print all prime numbers less than 1000.
-count=0;
-for num in range(0,1000,1):
-    for j in range(1,num+1,1):
-        if (num%j)==0:
-            count=count+1;
-        
-    if (count==2):
-        print(num)
+
+for i in range(1,1000):
     count=0
+    for j in range(1,i+1):
+        if(i%j==0):
+            count=count+1
+
+    if(count==2):
+        print(i)
+
 """
+
 
 """#Qn12b) Write a python program to find the distance between two points (x1,y1) and (x2,y2).
-import math
-x1=int(input("Enter the initial x-coordinate: "))
-y1=int(input("Enter the initial y-coordinate: "))
 
-x2=int(input("Enter the final x-coordinate: "))
-y2=int(input("Enter the final y-coordinate: "))
+from math import sqrt
+x1=20
+x2=30
+y1=50
+y2=60
+dist=sqrt((x2-x1)**2 + (y2-y1)**2)
 
-dx=(x2-x1)**2
-dy=(y2-y1)**2
-ans=math.sqrt(dx+dy)
-print("The distance between the 2 points is: ",ans)
 """
+
