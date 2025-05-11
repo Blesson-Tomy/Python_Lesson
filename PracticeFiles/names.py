@@ -18,6 +18,9 @@ dict={'Name':"Aswin",'Age':'20'}
 for key,values in dict.items():
     print(values)
     print(f"{key}:{values}")
+
+
+print(round(8.6765656,3))
 """
 
 for item in list:
