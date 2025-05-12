@@ -1,0 +1,4 @@
+,sl,title,author,available,count
+0,1,The great gatsby,F Scott,Y,20
+1,2,Pride and Prejudice,JA,Y,15
+2,3,The time machine,HG Wells,N,0

@@ -1,0 +1,5 @@
+,date,temperature,humidity,windspeed,precipitationtype,place,weather
+0,2022-10-22,10,1,100,high,up,cloudy
+1,2022-10-21,20,2,200,low,down,sunny
+2,2022-10-20,30,3,300,medium,asia,rainiy
+3,2022-10-25,40,4,400,low,pacific,cloudy
