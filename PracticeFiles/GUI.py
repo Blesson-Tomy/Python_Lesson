@@ -24,7 +24,7 @@ rb=Button(parent,text="yellow", fg="yellow")
 rb.pack(side=BOTTOM)
 parent.mainloop()
 
-"""
+
 
 parent =tkinter.Tk()
 name=Label(parent,text="Name of Student: ").grid(row=0,column=0)
@@ -47,6 +47,27 @@ submit=Button(parent,text="Submit",command=onClick).grid(row=4,column=0)
 
 
 parent.mainloop()
+
+
+"""
+import turtle
+
+t=turtle.Turtle()
+t.screen.bgcolor("orange")
+x=t.screen.window_height()
+t.hideturtle()
+print(x)
+t.color("blue")
+t.fillcolor("blue")
+t.begin_fill()
+for i in range(0,6):
+    
+    
+    t.forward(100)
+    t.right(60)
+
+t.end_fill()
+
 
 
 
