@@ -88,31 +88,4 @@ a.printt()
 
 """
 
-#Qn14a) Decimal Number to binary equivalent
-"""
-dec=int(123)
-res=''
-
-while dec!=0:
-    temp=dec%2
-    res=str(temp)+res
-    dec=dec//2
-
-print(res)
-"""
-
-#14b) Read from file and count occurances and store into a dictionary
-"""
-f1=open("books.txt","r+")
-dicti={}
-f=f1.readlines()
-for line in f:
-    for ch in line.upper():
-        if ch in dicti:
-            dicti[ch]=dicti[ch]+1
-        else:
-            dicti[ch]=1
-
-print(dicti)
-"""
 

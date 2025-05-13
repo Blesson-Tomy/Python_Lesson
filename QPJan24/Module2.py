@@ -1,5 +1,5 @@
 #Qn4) Write a program to identify palindromic words in lines of text.
-
+"""
 def pal(word):
     word=word.lower()
     return word==word[::-1]
@@ -18,7 +18,7 @@ for word in f:
 
 for i in sorted(palindrome):
     print(i)
-
+"""
 #Qn14a) Decimal Number to binary equivalent
 """
 dec=int(123)
@@ -47,3 +47,8 @@ for line in f:
 print(dicti)
 """
 
+
+import os
+
+ans=os.path.exists("Hello.gif")
+print(ans)
